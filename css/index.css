@@ -1,0 +1,16 @@
+html {
+	background: url("../images/index.png") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+div {
+	color: ghostwhite;
+	font-weight: bold;
+	font-size: xx-large;
+	font-family: cursive;
+	text-align: center;
+}

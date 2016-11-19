@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="../css/assignment.css" />
+	<script src="../js/jquery-2.2.3.min.js"></script>
+	<title>UI/UX $ Assignment</title>
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="javascript:window.location.reload();" title="Company logo" rel="home">
+					<img src="../images/header-logo.png" alt="Company logo">
+				</a>
+			</div>
+			<div class="navbar-collapse">
+				<ul class="navbar-nav">
+					<li><a href="javascript:window.location.reload();">Home</a></li>
+					<li><a href="#">Resources</a></li>
+					<li><a href="#">Get In Touch</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="mainContainer">
+		<div id="leftPane" class="left container">
+			<div class="facet-title" title="Click to Collapse">
+				<img class="icon collapse" title="Collapse elements" src="../icons/collapse.png" />
+
+				<h3 class="menu title">Elements</h3>
+				<span class="clear-wrap">
+        <a id="clearSelected" class="clear font-12">X Clear</a>
+     </span>
+			</div>
+			<div id="searchArea">
+				<input type="text" id="searchFacet" class="input" placeholder="search">
+				<ul id="inputTypesList" class="list">
+					<li class="facet relative" title="Text Box">
+						<input type="checkbox" value="Text Box" id="text">
+						<span class="font-16 inline">Text Box</span>
+
+						<div class="grey font-12 inline absolute">(<span class="count">0</span>)</div>
+					</li>
+					<li class="facet relative" title="Radio">
+						<input type="checkbox" value="Radio" id="radio">
+						<span class="font-16 inline">Radio</span>
+
+						<div class="grey font-12 inline absolute">(<span class="count">0</span>)</div>
+					</li>
+					<li class="facet relative" title="Select Box">
+						<input type="checkbox" value="Select Box" id="select">
+						<span class="font-16 inline">Select Box</span>
+
+						<div class="grey font-12 inline absolute">(<span class="count">0</span>)</div>
+					</li>
+					<li class="facet relative" title="Check Box">
+						<input type="checkbox" value="Check Box" id="checkbox">
+						<span class="font-16 inline">Check Box</span>
+
+						<div class="grey font-12 inline absolute">(<span class="count">0</span>)</div>
+					</li>
+					<li class="facet relative" title="Text Area">
+						<input type="checkbox" value="Text Area" id="textarea">
+						<span class="font-16 inline">Text Area</span>
+
+						<div class="grey font-12 inline absolute">(<span class="count">0</span>)</div>
+					</li>
+					<li class="facet relative" title="Auto Complete">
+						<input type="checkbox" value="Auto Complete" id="autocomplete">
+						<span class="font-16 inline">Auto Complete</span>
+
+						<div class="grey font-12 inline absolute">(<span class="count">0</span>)</div>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div id="rightPane">
+			<div id="rightTopPane" class="relative">
+				<div class='grey font-12 inline noneSelected'>None selected</div>
+			</div>
+			<div id="rightBottomPane">
+				<table id="test"></table>
+			</div>
+		</div>
+	</div>
+	<div></div>
+	<script src="../js/assignment.js"></script>
+	<footer>
+		<div class="footer-mini">
+			<div class="container-new">
+				<div class="pull-left">
+					<p>Copyright © 2016 Company... All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
